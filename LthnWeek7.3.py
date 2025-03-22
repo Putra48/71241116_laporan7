@@ -1,4 +1,4 @@
-def generate_series(tinggi, lebar):
+def tampilkan_deret(tinggi, lebar):
     count = 1
     for i in range(tinggi):
         for j in range(lebar):
@@ -10,4 +10,4 @@ def generate_series(tinggi, lebar):
 tinggi = int(input("Masukkan tinggi: "))
 lebar = int(input("Masukkan lebar: "))
 
-generate_series(tinggi, lebar)
+tampilkan_deret(tinggi, lebar)
